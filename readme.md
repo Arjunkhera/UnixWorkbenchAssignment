@@ -1,8 +1,8 @@
 # Unix Workbench Assignment
-**The makefile was made on :** Mon Sep  3 19:05:33 IST 2018
+**The makefile was made on :** Mon Sep  3 19:07:16 IST 2018
   
-**The number of lines in the guessinggame.sh is :** 48
+**The number of lines in guessinggame.sh is :** 48
   
-### NOTE :  
-1. The program guessinggame only reads files and not directories  
+### Note :  
+1. The program guessinggame.sh only reads files and not directories  
 2. It also discards invalid inputs  
