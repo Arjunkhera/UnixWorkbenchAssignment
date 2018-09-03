@@ -1,18 +1,18 @@
 
-all: readme.md
+all: README.md
 
-readme.md: guessinggame.sh
-	echo "# Unix Workbench Assignment" > readme.md
-	echo -n "**The makefile was made on :** " >> readme.md
-	date >> readme.md
-	echo "  " >> readme.md
-	echo -n "**The number of lines in guessinggame.sh is :** ">> readme.md
-	cat guessinggame.sh | wc -l >> readme.md
-	echo "  " >> readme.md
+README.md: guessinggame.sh
+	echo "# Unix Workbench Assignment" > README.md
+	echo -n "**The makefile was made on :** " >> README.md
+	date >> README.md
+	echo "  " >> README.md
+	echo -n "**The number of lines in guessinggame.sh is :** ">> README.md
+	cat guessinggame.sh | wc -l >> README.md
+	echo "  " >> README.md
 
-	echo "### Note :  " >> readme.md
-	echo "1. The program guessinggame.sh only reads files and not directories  " >> readme.md
-	echo "2. It also discards invalid inputs  " >> readme.md
+	echo "### Note :  " >> README.md
+	echo "1. The program guessinggame.sh only reads files and not directories  " >> README.md
+	echo "2. It also discards invalid inputs  " >> README.md
 
 clean:
-	rm readme.md
+	rm README.md
